@@ -1,0 +1,188 @@
+
+#container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    background-color:palegreen;
+    margin-bottom: auto;
+    opacity: 0.5;
+}
+#container:hover{
+    opacity: 1;
+}
+header{
+    height: 105px;
+}
+header hr{
+    background-color: brown;
+    height: 5px;
+}
+#video
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+header img
+{
+    width: 40px;
+    height: 36px;
+    float: left;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+header h1{
+    background-color: black;
+    size: 100px;
+    color: red;
+    text-align: center;
+    border: 4px dotted greenyellow;
+    font-family: 'Combo', cursive;
+    text-shadow: 2px 2px greenyellow;
+    padding: 4px;
+    line-height:50px;
+}
+header marquee
+{
+    color: red;
+    background-color: aqua;
+    font-family: 'Combo', cursive;
+}
+header marquee:hover
+{
+    text-decoration: underline;
+    color:darkgreen;
+}
+nav{
+    clear: both;
+}
+nav ul li{
+list-style: none;
+float: left;
+padding: 1px;
+margin-bottom: 10px;
+}
+nav ul li a{
+    color: brown;
+    padding: 5px;
+    background-color:wheat;
+    text-decoration: none;
+    display:block;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    font-family: 'Combo', cursive;
+    line-height: 10px;
+    width: 80px;
+    text-align: center;
+
+}
+nav ul li a:hover
+{
+    border: 4px dashed black;
+}
+nav ul li a:hover
+{
+    background-color:lime;
+}
+main{
+    clear: both;
+}
+footer{
+    background-color: grey;
+}
+footer h3:hover{
+   color:red
+}
+footer h6:hover{
+   color:green
+}
+.para1
+{
+    background-color: mistyrose;
+    font-family: 'Combo', cursive;
+    border: 2px solid palegreen; 
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#h1
+{
+    background-color: palegreen;
+}
+main h1{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#para2
+{
+    background-color: mistyrose;
+    font-family: 'Combo', cursive;
+    border: 2px solid white; 
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#log
+{
+    background-color: mistyrose;
+}
+#login
+{
+    color:cornflowerblue ;
+}
+main form
+{
+    text-align: center;
+    font-family:'combo',cursive;
+    color:maroon;
+    background-color: burlywood;
+}
+.profile
+{
+    color:brown;
+    text-align: center;
+    background-color:violet;
+    font-family: 'combo',cursive;
+}
+#regis
+{
+    background-color:silver;
+}
+main table
+{
+    background-color: darksalmon;
+}
+#about
+{
+    background-color:khaki;
+}
+main img{
+    height: 300px;
+    width: 400px;
+}
+main img:hover
+{
+    border: 2px solid blue;
+    border-radius: 19px;
+    opacity: 0.7;
+}
+.link
+{
+    font-family: 'comb0',cursive;
+    color: rgb(23, 163, 202);
+}
+.link a{
+    color: rgb(44, 137, 89);
+}
+#contact
+{
+    background-color: lightpink;
+}
